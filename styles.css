@@ -8,3 +8,22 @@ body {
   font-family: "Poppins", sans-serif !important;
   margin: 0;
 }
+
+.title-movies{
+  font-size: 50px;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding: 20px;
+}
+.overview-text{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.title-text{
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
