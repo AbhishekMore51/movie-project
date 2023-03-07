@@ -49,7 +49,7 @@ function showPopularMovies(results){
     movies.innerHTML = `
       <div class="card" >
         <img src="${IMG_URL+results[i].poster_path}" class="card-img-top" alt="${results[i].title}">
-        <div class="card-body">
+        <div class="card-body card-body-hover">
           <h5 class="card-title title-text">${results[i].title}</h5>
           <p class="card-text overview-text">${results[i].overview}</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>

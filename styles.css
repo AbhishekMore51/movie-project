@@ -9,11 +9,17 @@ body {
   margin: 0;
 }
 
+.title-section{
+  display: flex;
+}
 .title-movies{
   font-size: 50px;
   text-transform: capitalize;
   font-weight: 600;
-  padding: 20px;
+  padding: 20px 20px 20px 0px;
+}
+.title-movies-more{
+  font-size: 20px;
 }
 .overview-text{
   display: -webkit-box;
