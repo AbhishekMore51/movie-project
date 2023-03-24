@@ -109,7 +109,7 @@ function showPopularMovies(results) {
   for (let i = 0; i < 6; i++) {
     // console.log(results,"aja")
     let movies = document.createElement("div");
-    movies.classList = "col-lg-4 col-md-4 col-sm-6 mt-5";
+    movies.classList = "col-lg-4 col-md-4 col-sm-6 mt-5 class-cards";
     movies.innerHTML = `
     <a class="card-links" href="#">
       <div class="card card-detailing" >
@@ -122,7 +122,7 @@ function showPopularMovies(results) {
             Average votes: 
             <span style="margin-left: 10px">${results[0].vote_average} 
               <i class="fas fa-star" style="color: #ffd700"></i>
-            </span>
+            </span> 
           </p>
         </div>
       </div>

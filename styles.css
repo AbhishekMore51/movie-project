@@ -85,10 +85,15 @@ body {
 /* Banner Section End */
 
 /* Main Section */
+.class-cards{
+  display: flex;
+  justify-content: center;
+}
 .card-links {
   text-decoration: none;
 }
 .card-detailing {
+  width: 300px;
   border: none !important;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: all 0.3s ease-in-out;
@@ -124,4 +129,12 @@ body {
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .card-detailing {
+    width: auto;
+  }
 }
